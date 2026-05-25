@@ -1,0 +1,12 @@
+__pycache__
+*.csv
+*.so
+.idea
+*.mo
+*~
+.pytest_cache
+__pycache__
+.venv
+.venv313
+.claude
+*.db

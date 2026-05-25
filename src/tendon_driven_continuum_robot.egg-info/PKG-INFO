@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: planar-tendon-driven-robot
+Version: 0.1.0
+Summary: Desktop GUI for ODRI mw_dual_motor_torque_ctrl firmware via CANable v2.0 (slcan)
+Requires-Python: >=3.11
+Requires-Dist: PySide6>=6.7.0
+Requires-Dist: python-can>=4.4.0
+Requires-Dist: pyqtgraph>=0.13.7
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: pyserial>=3.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-qt>=4.4; extra == "dev"
+Requires-Dist: ruff>=0.6; extra == "dev"

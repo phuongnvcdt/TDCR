@@ -1,0 +1,29 @@
+[project]
+name = "planar-tendon-driven-robot"
+version = "0.1.0"
+description = "Desktop GUI for ODRI mw_dual_motor_torque_ctrl firmware via CANable v2.0 (slcan)"
+requires-python = ">=3.11"
+dependencies = [
+    "PySide6>=6.7.0",
+    "python-can>=4.4.0",
+    "pyqtgraph>=0.13.7",
+    "numpy>=1.26.0",
+    "pyserial>=3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-qt>=4.4",
+    "ruff>=0.6",
+]
+
+[project.scripts]
+odri-can = "odri_can.main:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
