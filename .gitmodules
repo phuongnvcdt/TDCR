@@ -1,0 +1,3 @@
+[submodule "udriver_firmware"]
+	path = udriver_firmware
+	url = https://github.com/phuongnvcdt/udriver_firmware.git
