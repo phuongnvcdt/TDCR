@@ -1,2 +1,0 @@
-[console_scripts]
-odri-can = odri_can.main:main
