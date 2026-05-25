@@ -1,3 +1,6 @@
 [submodule "udriver_firmware"]
 	path = udriver_firmware
 	url = https://github.com/phuongnvcdt/udriver_firmware.git
+[submodule "tdcr_app"]
+	path = tdcr_app
+	url = https://github.com/phuongnvcdt/Tendon-Driven-Continuum-Robot.git
