@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configurations XML_version="1.2" id="configurations_0">
+    <configuration XML_version="1.2" id="configuration_0">
+        <instance XML_version="1.2" desc="Texas Instruments XDS100v2 USB Debug Probe"
+            href="connections/TIXDS100v2_Connection.xml"
+            id="Texas Instruments XDS100v2 USB Debug Probe"
+            xmlns="http://com.ti.ccstudio.branding.model"/>
+        <instance XML_version="1.2" desc="TMS320F28069M"
+            href="devices/TMS320F28069M.xml"
+            id="TMS320F28069M"
+            xmlns="http://com.ti.ccstudio.branding.model"/>
+        <connection XML_version="1.2" id="connection_0">
+            <instance XML_version="1.2"
+                href="connections/TIXDS100v2_Connection.xml"
+                id="Texas Instruments XDS100v2 USB Debug Probe"
+                xmlns="http://com.ti.ccstudio.branding.model"/>
+            <device XML_version="1.2" MSA="false" id="device_0">
+                <instance XML_version="1.2"
+                    href="devices/TMS320F28069M.xml"
+                    id="TMS320F28069M"
+                    xmlns="http://com.ti.ccstudio.branding.model"/>
+            </device>
+        </connection>
+    </configuration>
+</configurations>
