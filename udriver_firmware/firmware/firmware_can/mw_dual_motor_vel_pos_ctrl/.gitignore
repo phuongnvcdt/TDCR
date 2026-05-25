@@ -1,0 +1,9 @@
+*~
+*.swp
+ccs/.launches
+ccs/Release
+ccs/Flash
+_build
+ccs/.launches
+ccs/.theia
+ccs/.clangd
