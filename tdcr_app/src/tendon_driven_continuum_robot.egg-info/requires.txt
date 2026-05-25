@@ -1,0 +1,10 @@
+PySide6>=6.7.0
+python-can>=4.4.0
+pyqtgraph>=0.13.7
+numpy>=1.26.0
+pyserial>=3.0
+
+[dev]
+pytest>=8.0
+pytest-qt>=4.4
+ruff>=0.6
